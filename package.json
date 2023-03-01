@@ -6,7 +6,10 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "generarcomponentecontador": "ng g c contador",
+    "generarcomponentenoticia": "ng g c noticia",
+    "generarcomponentenoticias": "ng g c noticias"
   },
   "private": true,
   "dependencies": {

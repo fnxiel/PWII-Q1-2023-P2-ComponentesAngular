@@ -1,0 +1,8 @@
+<div class="noticia" *ngIf="noticia">
+    <a href={{noticia.enlace}}>
+        <img src={{noticia.portada.src}} alt={{noticia.portada.alt}}>
+        <h2>{{noticia.titulo}}</h2>
+        <p>{{noticia.descripcion}}</p>
+        <p>{{noticia.fecha}}</p>
+    </a>
+</div>

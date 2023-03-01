@@ -1,0 +1,14 @@
+<p>
+    <button (click)="disminuirContador()">-</button>
+    <input type="text" [(ngModel)]="conteo"/>
+    <button (click)="aumentarContador()">+</button>
+</p>
+<p>
+    <label>El contador tiene el valor de: {{conteo}}</label>
+</p>
+<p *ngIf="error">
+    <label class="error">El valor del contador no es un número válido</label>
+</p>
+<p *ngIf="conteo >= 10">
+    <label class="advertencia">Se ha cumplido la cuota de tickets diarios</label>
+</p>
